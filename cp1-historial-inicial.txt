@@ -1,0 +1,7 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-8-git-reset-deshacer-cambios-DaniBanani67$ git log --oneline
+eb25fc0 (HEAD -> main) Paso 4: registro de usuarios
+1196bc9 fix cosas
+976ae76 Paso 2: módulo de login
+beb8366 Paso 1: estructura inicial
+fb87aee (origin/main, origin/HEAD) add deadline
+19e22b3 Initial commit

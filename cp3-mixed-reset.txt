@@ -1,0 +1,17 @@
+Con el reset se quitaron algunos commits del historial temporalmente
+y sus cambios volvieron al working directory.
+
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-8-git-reset-deshacer-cambios-DaniBanani67$ git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-historial-inicial.txt
+        cp2-soft-reset.txt
+        progreso.txt
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+
+--soft mantiene los cambios en staging.
+mixed quita los cambios del staging y los deja solo en los archivos.

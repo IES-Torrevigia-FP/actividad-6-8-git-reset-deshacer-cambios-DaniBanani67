@@ -1,0 +1,24 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-8-git-reset-deshacer-cambios-DaniBanani67$ git status
+En la rama main
+Tu rama está adelantada a 'origin/main' por 3 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        modificados:     progreso.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-historial-inicial.txt
+
+
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-8-git-reset-deshacer-cambios-DaniBanani67$ git log --oneline
+2d33a3c (HEAD -> main) Paso 4: registro de usuarios (mejorado)
+1196bc9 fix cosas
+976ae76 Paso 2: módulo de login
+beb8366 Paso 1: estructura inicial
+fb87aee (origin/main, origin/HEAD) add deadline
+19e22b3 Initial commit
+
+soft mueve el HEAD al commit anterior
+pero mantiene los cambios en staging listos para hacer commit otra vez.
