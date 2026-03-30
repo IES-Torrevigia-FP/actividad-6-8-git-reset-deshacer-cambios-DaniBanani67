@@ -1,0 +1,8 @@
+git reset --hard eliminó todos los cambios que estaban staged y unstaged
+y dejó el proyecto exactamente como en el último commit.
+
+Paso 1: estructura inicial del proyecto.Paso 2: añade módulo de login.
+Paso 3: refactoriza código de login.
+Paso 4: añade módulo de registro de usuarios.
+
+Se llama opción nuclear porque borra cambios y no se pueden recuperar fácilmente.
